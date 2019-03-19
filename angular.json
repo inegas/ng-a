@@ -28,7 +28,7 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              
+              "assets/fontawesome-free-5.7.2-web/fontawesome.min.css",
               "src/styles.scss"
             ],
             "scripts": [
