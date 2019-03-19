@@ -9,6 +9,7 @@ export class ClasesComponent implements OnInit {
 
   alert:string = 'alert-success';
   // alertN:string = 'alert-danger';
+  loading:boolean = false;
 
   property:object = {
     danger: true
@@ -17,6 +18,13 @@ export class ClasesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onClick(){
+    this.loading = true;
+    setTimeout(()=>{
+      this.loading = false;
+    }, 3000);
   }
 
 }

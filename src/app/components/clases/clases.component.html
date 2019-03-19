@@ -9,4 +9,21 @@
 <button   type="button" class="btn btn-primary" 
           (click)="property.danger = !property.danger"
           [ngClass]="{'btn-danger': property.danger, 'btn-primary': !property.danger}"
-          >oki</button>
+          >Cambiame</button>
+
+<h3 class="mt-3">Proceso asincrono</h3>
+<button
+  (click)="onClick()"
+  type="button"
+  class="btn btn-primary"
+  [disabled]="loading">
+  <i  class="fas  mr-1"
+      [ngClass]="{'fa-save': !loading, 'fa-spin fa-sync-alt': loading}"></i>
+      <span class="ml-1" *ngIf="!loading">Guardar cambios</span>
+      <span class="ml-1" *ngIf="loading">Espere por favor</span>
+</button>
+
+
+
+
+
