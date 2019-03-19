@@ -33,7 +33,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "assets/tether-1.3.3/tether.min.js",
+              "src/assets/tether/tether.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ],
             "es5BrowserSupport": true
