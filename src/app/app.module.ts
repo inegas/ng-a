@@ -8,6 +8,10 @@ import { CssComponent } from './components/css/css.component';
 import { ClasesComponent } from './components/clases/clases.component';
 import { HomeComponent } from './components/home/home.component';
 import { UserComponent } from './components/user/user.component';
+import { NewUserComponent } from './components/user/new-user.component';
+import { EditUserComponent } from './components/user/edit-user.component';
+import { DetailtUserComponent } from './components/user/detailt-user.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
@@ -18,6 +22,10 @@ import { UserComponent } from './components/user/user.component';
     ClasesComponent,
     HomeComponent,
     UserComponent,
+    NewUserComponent,
+    EditUserComponent,
+    DetailtUserComponent,
+    NavbarComponent,
     
   ],
   imports: [
