@@ -7,6 +7,7 @@ import { NgStyleComponent } from './components/ng-style/ng-style.component';
 import { CssComponent } from './components/css/css.component';
 import { ClasesComponent } from './components/clases/clases.component';
 import { HomeComponent } from './components/home/home.component';
+import { UserComponent } from './components/user/user.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { HomeComponent } from './components/home/home.component';
     CssComponent,
     ClasesComponent,
     HomeComponent,
+    UserComponent,
     
   ],
   imports: [
