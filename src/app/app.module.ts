@@ -12,6 +12,7 @@ import { NewUserComponent } from './components/user/new-user.component';
 import { EditUserComponent } from './components/user/edit-user.component';
 import { DetailtUserComponent } from './components/user/detailt-user.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { InfoComponent } from './components/info/info.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     EditUserComponent,
     DetailtUserComponent,
     NavbarComponent,
+    InfoComponent,
     
   ],
   imports: [
