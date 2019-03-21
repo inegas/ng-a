@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-ng-style',
   template: `
   <p [style.fontSize.px] = "size">
-    Hola! Esto es una prueba...
+   Hi! This is a test...
   </p>
 
   <button class="btn btn-primary" (click)="size = size - 5">
