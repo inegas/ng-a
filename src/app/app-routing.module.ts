@@ -5,6 +5,7 @@ import { UserComponent } from './components/user/user.component';
 import { NewUserComponent } from './components/user/new-user.component';
 import { EditUserComponent } from './components/user/edit-user.component';
 import { DetailtUserComponent } from './components/user/detailt-user.component';
+import { InfoComponent } from './components/info/info.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
       // { path: '**', redirectTo: 'editar'}
     ]
   },
+  { path: 'info', component: InfoComponent},
   { path: '**', redirectTo: 'home'}
 ];
 
