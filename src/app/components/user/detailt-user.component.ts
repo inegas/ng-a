@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-detailt-user',
   template: `
     <p>
-      detailt-user works!
+      detail-user works!
     </p>
   `,
   styles: []
